@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import leetcode from '../assets/img/leetcode-svgrepo-com.svg';
 import Github from '../assets/img/icons8-github-60.svg';
-import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -54,9 +52,9 @@ export const NavBar = () => {
                 <a href="https://leetcode.com/ahipsharma/"><img src={leetcode} alt="" /></a>
                 <a href="https://github.com/ahipsharma"><img src={Github} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>
