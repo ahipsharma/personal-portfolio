@@ -14,6 +14,11 @@ function App() {
       <Skills />
       <Projects />
       <Songs />
+      <div className='flex text-center'>
+        <p>For more Songs,
+        <a href="https://open.spotify.com/artist/6TiiZlvHEIdxGdaDBcBHe8?si=8ncUThzzR-OBgJD7OxJQkA" className='text-decoration-none text-3xl' target='_blank'>visit here</a>
+        </p>
+      </div>
       <Footer />
     </div>
   );
