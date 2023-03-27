@@ -50,7 +50,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/ahip-sharma-093060202/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BCcdT4L%2FkQnKI7cuLbZm%2BWQ%3D%3D"><img src={navIcon1} alt="" /></a>
                 <a href="https://leetcode.com/ahipsharma/"><img src={leetcode} alt="" /></a>
                 <a href="https://github.com/ahipsharma"><img src={Github} alt="" /></a>
-                <a href="https://github.com/ahipsharma"><img src={Spotify} alt="" /></a>
+                <a href="https://open.spotify.com/artist/6TiiZlvHEIdxGdaDBcBHe8?si=8ncUThzzR-OBgJD7OxJQkA"><img src={Spotify} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
