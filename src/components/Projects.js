@@ -1,10 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Restaurent.png";
-import projImg2 from "../assets/img/Calculator.png";
+import projImg1 from "../assets/img/Projectimg/Restaurent.png";
+import projImg2 from "../assets/img/Projectimg/Calculator.png";
+import Salary from "../assets/img/Projectimg/Salary Predictor.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import portfolio from '../assets/img/1st portfolio.png';
+import portfolio from '../assets/img/Projectimg/1st portfolio.png';
 
 export const Projects = () => {
 
@@ -13,6 +14,10 @@ export const Projects = () => {
       title: "Restaurent",
       description: "Menu Website",
       imgUrl: projImg1,
+    },
+    {
+      title: "Salary Predictor for Software Developers",
+      imgUrl: Salary,
     },
     {
       title: "Calculator",

@@ -1,21 +1,21 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import Khushi from "../assets/img/Khushi ke ye pal.png";
-import Hokar from "../assets/img/Hokar Juda Tere Se.png";
-import Khulke from "../assets/img/Khulke Jeele Aaj.png";
+import Khushi from "../assets/img/Songimg/Khushi ke ye pal.png";
+import Hokar from "../assets/img/Songimg/Hokar Juda Tere Se.png";
+import Khulke from "../assets/img/Songimg/Khulke Jeele Aaj.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import Jeene from '../assets/img/Jeene Ki Wajah.png';
-import Life from '../assets/img/Life is Too Short.png';
-import Rising from '../assets/img/Rising the Grief.png';
-import Galaxy from '../assets/img/Galaxy of Music.png';
-import Teri from '../assets/img/Teri Meri Dosti.png';
-import Zindagi from '../assets/img/Zindagi se Mulakat.png';
-import My from '../assets/img/My Life my rules.png';
-import High from '../assets/img/High Roads.png';
-import Endless from '../assets/img/Endless Beating.png';
-import Meri from '../assets/img/Meri Behena.png';
-import Yaadon from '../assets/img/Yaadon ki Barat.png';
+import Jeene from '../assets/img/Songimg/Jeene Ki Wajah.png';
+import Life from '../assets/img/Songimg/Life is Too Short.png';
+import Rising from '../assets/img/Songimg/Rising the Grief.png';
+import Galaxy from '../assets/img/Songimg/Galaxy of Music.png';
+import Teri from '../assets/img/Songimg/Teri Meri Dosti.png';
+import Zindagi from '../assets/img/Songimg/Zindagi se Mulakat.png';
+import My from '../assets/img/Songimg/My Life my rules.png';
+import High from '../assets/img/Songimg/High Roads.png';
+import Endless from '../assets/img/Songimg/Endless Beating.png';
+import Meri from '../assets/img/Songimg/Meri Behena.png';
+import Yaadon from '../assets/img/Songimg/Yaadon ki Barat.png';
 
 export const Songs = () => {
 

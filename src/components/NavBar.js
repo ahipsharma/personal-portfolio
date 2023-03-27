@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import leetcode from '../assets/img/leetcode-svgrepo-com.svg';
-import Github from '../assets/img/icons8-github-60.svg';
+import Github from '../assets/img/github-icon-1.svg';
+import Spotify from '../assets/img/spotify-1.svg';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -49,6 +50,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/ahip-sharma-093060202/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BCcdT4L%2FkQnKI7cuLbZm%2BWQ%3D%3D"><img src={navIcon1} alt="" /></a>
                 <a href="https://leetcode.com/ahipsharma/"><img src={leetcode} alt="" /></a>
                 <a href="https://github.com/ahipsharma"><img src={Github} alt="" /></a>
+                <a href="https://github.com/ahipsharma"><img src={Spotify} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
