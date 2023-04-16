@@ -6,6 +6,7 @@ import Salary from "../assets/img/Projectimg/Salary Predictor.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import portfolio from '../assets/img/Projectimg/1st portfolio.png';
+import VC from '../assets/img/Projectimg/VC.png';
 
 export const Projects = () => {
 
@@ -29,6 +30,11 @@ export const Projects = () => {
       description: "1st Portfolio Website.",
       imgUrl: portfolio,
     },
+    {
+      title: "Video Call Web app",
+      description: "You can do real time video call by generating the joining code and send it to the person you want to call.",
+      imgUrl: VC,
+    },
   ];
 
   return (
@@ -40,7 +46,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Hello all!!! happy to present some of my projects that I made:</p>
+                <p>Hello all, happy to present you my projects:</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     {/* <Nav.Item>
